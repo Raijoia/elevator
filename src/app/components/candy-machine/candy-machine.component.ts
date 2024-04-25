@@ -3,13 +3,13 @@ import { ICandy } from './candy';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-initial-page',
+  selector: 'app-candy-machine',
   standalone: true,
   imports: [NgFor],
-  templateUrl: './initial-page.component.html',
-  styleUrl: './initial-page.component.scss',
+  templateUrl: './candy-machine.component.html',
+  styleUrl: './candy-machine.component.scss',
 })
-export class InitialPageComponent {
+export class CandyMachineComponent {
   candy: ICandy[] = [
     {
       select: 1,
