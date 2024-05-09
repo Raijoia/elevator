@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+}
+
+#cenario{
+    position: relative;
+    width: vh;
+    height: 99.6vh;
+    align-content: center;
+    top: 0%;
+}
+
+
+ #building {
+    width: 37.6vh;
+    background:#594D47;  
+    height:95vh;
+    overflow:hidden;
+    position: absolute;
+    
+    #elevatorShaft{
+     background:black;
+      width:21.69%;
+      height: 88%;
+      margin: 17.6% 27.4%;
+      
+      
+      #elevatorContainer {
+        
+       position:absolute;
+       height:100%;
+        width:20%;
+        bottom:0;
+        background-size:100% 100%;
+        
+        
+       
+        #elevator {
+         
+          height:14%;        
+          overflow:hidden;
+          width:109%;
+          position:relative;
+          background:url(Assets/Group\ 8.png);
+          background-size:100% 100%;
+          bottom: -1%;
+
+          .door {
+            background:#AAA;
+            width:49%;
+            height:100%;
+            top:0;
+            position:absolute;
+            transition:all 300ms ease-in;
+
+            #leftDoor {
+                left: 0;
+                background:#999;
+            }
+            #rightDoor {
+              
+                right:0;
+               background:#999;
+            
+            
+              
+            }
+            
+          }
+            .active-right {
+    
+                  right:-50% !important;              
+  
+                }
+            .active-left {
+                  
+              left:-50% !important;              
+  
+             }
+        }
+        
+        #strings {
+  
+   height:80%;
+         background: -moz-linear-gradient(left, transparent, transparent 10%,#AAA 10%, #AAA 30%, transparent 30%, transparent 40%, #CCC 40%, #CCC 60%, transparent 60%, transparent 70%, #999 70%, #999 90%, transparent 90%, transparent);
+          width:75%;
+        margin: 0 auto;
+
+        }
+      }
+    }
+    }
+    #floorSelect {
+        text-align:center;
+        position:absolute;
+        background:#FFF;
+        width:20%;
+        right:5%;
+        box-shadow:0 0 5px #362E2B;
+        z-index: 1;
+        
+        ul{
+            
+         
+          li {
+            list-style-type: none;
+            width:50px;
+            float:left;
+            text-align:center;
+            height:50px;     
+            line-height:50px;
+            border:1px solid #AAA;
+            margin:13px;
+            transition:all 300ms;
+            border-radius:50%;
+            border:2px solid #DDD;
+            
+            &:hover {
+       
+            background:#656565;
+            color:#FFF;
+            cursor:pointer;
+            transition:all 300ms;  
+            }
+            
+          }
+      
+        }
+      
+      h4 {
+       
+      
+        margin:20px 0 10px;;
+        
+      }
+      
+        
+      }
+        p {
+        
+       display:block;
+        width:20%;
+        padding:10px;
+        margin:0 10%;
+        color:#FFF;
+        
+      }
+    
