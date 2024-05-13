@@ -3,6 +3,7 @@ import { CandyMachineComponent } from './components/candy-machine/candy-machine.
 import { AutomatoComponent } from './components/automato/automato.component';
 import { HomeComponent } from './components/home/home.component';
 import { ElevatorComponent } from './components/elevator/elevator.component';
+import { AutomatoElevatorComponent } from './components/automato-elevator/automato-elevator.component';
 
 export const routes: Routes = [
   {
@@ -17,6 +18,10 @@ export const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+  },
+  {
+    path: 'automato-elevator',
+    component: AutomatoElevatorComponent
   },
   {
     path: 'elevator',
