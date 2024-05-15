@@ -11,6 +11,10 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  @media screen and ( min-height: 500px ) {
+    position: inherit;
+    margin-top: 6rem;
+  }
   &__content {
     text-align: center;
     font-size: 1.125rem;
